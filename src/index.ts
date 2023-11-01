@@ -9,3 +9,5 @@ module.exports = function (options: DDTransportOptions) {
 
   return build(processLogBuilder(options, apiInstance))
 }
+
+export { DDTransportOptions } from './process-logs'
